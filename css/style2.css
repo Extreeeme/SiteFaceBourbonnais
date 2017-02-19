@@ -183,12 +183,54 @@ span{
 #space{
 	height: 25px;
 }
+#space3{
+	height: 25px;
+	background-color: white;
+}
 #titrepage{
 	height: 100px;
 	background-color: white;
-	text-align: center;
+	text-align: left;
+	
+}
+#presentation{
+	background-color: #1693A5;
+	padding: 30px;
+}
+article{
+	background-color: white;
+	color: black;
+	width: 1000px;
+   height: 200px;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   padding: 10px;
+   -webkit-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+}
+article:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid white;
+   border-bottom: 13px solid transparent;
 }
 
+
+#space2{
+	height: 40px;
+}
+.col-xs-5{
+	padding: 0;
+	margin: 0;
+}
 #photofab img {
 	width: 350px;
 	height: 350px;
@@ -200,8 +242,8 @@ span{
 /* ------------------------------------------------------------------FOOTER--------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-ul, li{ 
-  list-style: none;
+ul li{ 
+  list-style-type: none;
   padding: 0; 
 }
 h2{
