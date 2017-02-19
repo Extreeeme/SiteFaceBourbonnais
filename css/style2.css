@@ -193,6 +193,14 @@ span{
 	text-align: left;
 	
 }
+.letterpress{
+	font-size: 70px;         /* taille de la police */
+   color: white;          /* Couleur de la police */
+   text-decoration: none;       /* Enlèvement du soulignement sur les liens */
+   text-shadow: 0 -2px 0 #222222;
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+}
 #presentation{
 	background-color: #1693A5;
 	padding: 30px;
@@ -208,9 +216,9 @@ article{
    border-radius:         10px;
    padding: 10px;
    -webkit-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
-margin: 10px;
+   -moz-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+	margin: 10px;
 }
 article:before {
    content:"";
@@ -223,8 +231,6 @@ article:before {
    border-right: 26px solid #FBFBFB;
    border-bottom: 13px solid transparent;
 }
-
-
 #space2{
 	height: 40px;
 }
@@ -236,7 +242,6 @@ article:before {
 	width: 350px;
 	height: 350px;
 }
-
 
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -253,7 +258,7 @@ h2{
   	margin-bottom: 10px;
   	color:white;
   	font-size: 23px;
-  	font-family: 'geo';  
+  	font-family: 'Pacifico', cursive;  
   	box-shadow: 2px 2px 5px 0px #656565;
 }
 footer{
