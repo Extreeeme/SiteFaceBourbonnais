@@ -243,6 +243,34 @@ article:before {
 	height: 350px;
 }
 
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961; 
+	  font-family: 'Pacifico', cursive;
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
+	}
+	#facebook{
+		background-color: #263961;
+		height: 551px;
+		text-align: center;
+		margin: 40px auto;
+	}
+	#fb{
+		height: 470px;
+	}
+	#plan{
+		padding: 43px;
+	}
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ------------------------------------------------------------------FOOTER--------------------------------------------------------------------------*/
