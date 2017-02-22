@@ -328,6 +328,7 @@ text-align: left;
 	border-radius: 30%;  
     width: 300px;
 	height: 300px;
+
 	
 }
 
@@ -405,7 +406,7 @@ a:hover,a:focus{
 a span{
      position:absolute; 
      margin-top:23px;
-     margin-left:-35px;
+     margin-left:30px;
      color:#09c;
      background:rgba(0,0,0,.9);
      padding:15px;
