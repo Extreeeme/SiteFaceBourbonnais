@@ -326,61 +326,99 @@ text-align: left;
 #president{
 	
 	border-radius: 30%;  
-    display: block;
-    margin: auto;
-    width: 50%;
     width: 300px;
 	height: 300px;
 	
 }
 
 #face {
-		
 	border-radius: 30%;  
-    display: block;
-    margin: auto;
-    width: 50%;
-
+    margin-top: 5%;
+  
 }
 
 
 #eric {
 	border-radius: 30%;  
-    display: block;
-    margin: auto;
-    width: 50%;
     width: 300px;
 	height: 300px;
+	margin : 5px 15px 6px 15px; 
 }
 	
 
 	
 #christine{
-	border-radius: 30%;  
-    display: block;
-    margin: auto;
-    width: 50%;
+	border-radius: 30%; 
     width: 300px;
 	height: 300px;
+	margin: 5px 6px 15px 6px;
+	
 }
 
 
 #xavier {
 
 	border-radius: 30%;  
-    display: block;
-    margin: auto;
-    width: 50%;
     width: 300px;
 	height: 300px;
+	margin : 5px 15px 6px 15px; 
+
 }
 
+#premier{
+	flex:right;
+
+}
+
+#bourb{
+	text-align: center;
+}
+
+#deux{
+	flex: left;
+}
+
+#trois{
+	flex: right;
+}
+
+#quatre {
+	flex: left;
+}
 
 
 article {
-	text-align: center;
+
  	font-family:cursive;
  	font-size: 30px ;
 }
+
+a{
+     color:#ccc;
+     text-shadow:0 -1px 0 black;                
+}
+a:hover,a:focus{
+     background:rgba(0,0,0,.4);
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+
+a span{
+     position:absolute; 
+     margin-top:23px;
+     margin-left:-35px;
+     color:#09c;
+     background:rgba(0,0,0,.9);
+     padding:15px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);  
+     transform:scale(0) rotate(-12deg);
+     transition:all .25s;
+             
+}
+
+a:hover span, a:focus span{
+     transform:scale(1) rotate(0);        
+}
+
 
 
