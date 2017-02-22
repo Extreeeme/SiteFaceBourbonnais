@@ -1,11 +1,12 @@
-<?php
 
-	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	<!-- ///////////////////////////////////////////////////////////HEADER///////////////////////////////////////////////////////////////// -->
-	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	<!-- ///////////////////////////////////////////////////////////CONTENU/////////////////////////////////////////////////////////////// -->
+	 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	 ///////////////////////////////////////////////////////////HEADER///////////////////////////////////////////////////////////////// -->
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	 ///////////////////////////////////////////////////////////CONTENU/////////////////////////////////////////////////////////////// -->
+<?php  include "header.html" ?>
 
 	<div class="row">
 
@@ -96,8 +97,8 @@
 		
 	</div>
 
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	<!-- /////////////////////////////////////////////////ACTU/////////////////////////////////////////////////////////////////////-->
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+	/////////////////////////////////////////////////ACTU/////////////////////////////////////////////////////////////////////
 
 	<div class="row">
 
@@ -144,8 +145,8 @@
 		</div>
 
 	</div>
-	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	<!-- /////////////////////////////////////////////////CAROUSSEL/////////////////////////////////////////////////////////////////////-->
+	 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+	/////////////////////////////////////////////////CAROUSSEL/////////////////////////////////////////////////////////////////////
 	
 	<div class="caroussel" style="margin-top:40px;" >
       	<div id="single" class="carousel slide" data-ride="carousel" data-shift="1">
@@ -170,55 +171,4 @@
 				
 	</div>	
 
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	<!-- ///////////////////////////////////////////////////////////FOOTER///////////////////////////////////////////////////////////////// -->
-	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<footer>
-      <div class="caroussel" style="margin-top:40px;" >
-      <div id="single" class="carousel slide" data-ride="carousel" data-shift="1">
-      <h2 >NOS PARTENAIRES</h2>
-      <div class="carousel-inner" >
-        <ul class="row item active list-unstyled" >
-          <li id="ag2r" class="col-xs-4 one"> <a href="http://www.ag2rlamondiale.fr/"><img src="img/ag2r.jpg"< class="img-responsive"></a> </li>
-          <li id="admical" class="col-xs-4 one"> <a href="http://www.admical.org/"> <img src="img/admical.jpg" class="img-responsive"></a> </li>
-          <li id="afmd" class="col-xs-4 one"> <a href="http://www.afmd.fr/"><img src="img/afmd.jpg" class="img-responsive"></a> </li>
-        </ul>
-        <ul class="row item">
-          <li id="acse" class="col-xs-4 one"><a href="http://www.federation-fare.fr/partenaires/acse"> <img src="img/ACSE.gif" class="img-responsive"></a></li>
-          <li id="anru" class="col-xs-4 one"><a href="http://www.anru.fr/"> <img src="img/ANRU.gif" class="img-responsive"></a> </li>
-          <li id="apf" class="col-xs-4 one"> <a href="http://www.apf.asso.fr/"><img src="img/apf.jpg" class="img-responsive"></a> </li>
-        </ul>
-        <ul class="row item">
-          <li id="civique" class="col-xs-4 one"><a href="http://www.service-civique.gouv.fr//"> <img src="img/civique.png" class="img-responsive"></a> </li>
-          <li id="cnam" class="col-xs-4 one"><a href="http://www.cnam.fr//"> <img src="img/cnam.jpg" class="img-responsive"></a> </li>
-          <li id="cuisines" class="col-xs-4 one"><a href="http://www.cuisinemodemplois.com/"> <img src="img/cuisines.gif" class="img-responsive"></a> </li>
-        </ul>
-        <ul class="row item">
-          <li id="diversite" class="col-xs-4 one"><a href="http://www.charte-diversite.com/"> <img src="img/diversite.jpg" class="img-responsive"></a> </li>
-          <li id="fei" class="col-xs-4 one"><a href="https://www.fei.org/"> <img src="img/fei.gif" class="img-responsive"></a> </li>
-          <li id="laposte" class="col-xs-4 one"><a href="http://www.laposte.fr/"> <img src="img/laposte.jpg" class="img-responsive"></a> </li>
-        </ul>
-        <ul class="row item">
-          <li id="ministere" class="col-xs-4 one"><a href="http://www.education.gouv.fr/pid7/le-ministere.html"> <img src="img/ministere.gif" class="img-responsive"></a> </li>
-          <li id="poleemploi" class="col-xs-4 one"><a href="http://www.ag2rlamondiale.fr/"> <img src="img/poleemploi.jpg" class="img-responsive"></a> </li>
-          <li id="ratp" class="col-xs-4 one"><a href="http://www.pole-emploi.fr/accueil/"> <img src="img/ratp.jpg" class="img-responsive"> </a></li>
-        </ul>
-        <ul class="row item">
-          <li id="total" class="col-xs-4 one"><a href="http://www.ag2rlamondiale.fr/"> <img src="img/total.jpg" class="img-responsive"></a> </li>
-          <li id="union" class="col-xs-4 one"><a href="http://www.ag2rlamondiale.fr/"> <img src="img/union.png" class="img-responsive"></a> </li>
-        </ul>
-      </div>
-      <a class="carousel-control left" href="#single" data-slide="prev"><</a> <a class="carousel-control right" href="#single" data-slide="next">></a> 
-      </div>
-      </div>
-    </footer>
-				</div>
-			</div>
-		</div>
-	</div>
-		<!-- Link de notre script JS -->
-		<script type="text/javascript" src="js/script2.js"></script>
-		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> 
-		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
-	</body>
-</html>	
+ <?php  include "footer.html" ?>
