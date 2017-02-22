@@ -21,6 +21,7 @@ $('#une2').hover(function(){
     $(this).stop().fadeTo('slow', 1);
 });
 
+
 //Le JS pour défilement 1 partenaire par 1 partenaire, cherche pas a comprendre non plus, ca marche c cool
 
 var carousels = $('.carousel');
